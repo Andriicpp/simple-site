@@ -8,42 +8,49 @@
   align-items: center;
 }
 
-.info {
-  display: flex;
-  justify-items: center;
-  align-items: center;
+.payment-delivery {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
   padding-top: 102px;
   padding-bottom: 132px;
-
+  text-decoration: none;
 }
 
-.info p {
+.payment-delivery {
   padding-right: 47px;
   margin: 0px;
 }
 
-.info p:last-child {
+.info a:last-child {
   padding-right: 0px;
   margin: 0px;
 }
 
+.info {
+  padding-top: 102px;
+  padding-bottom: 132px;
+}
+
+.soc-image {
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
 
 .telephone {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  color: #FFFFFF;
   padding-top: 102px;
   padding-bottom: 132px;
   margin: 0px;
   position: relative;
+}
+
+.tel {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .telephone::before {
@@ -58,4 +65,17 @@
   left: -11px;
   top: 45%;
   margin-top: -10%;
+}
+
+.soc-info {
+  width: 25px;
+  height: 25px;
+}
+
+.soc-image a {
+  padding-right: 20px;
+}
+
+.soc-image a:last-child {
+  padding-right: 0px;
 }
