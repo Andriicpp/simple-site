@@ -1,0 +1,129 @@
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 46px;
+}
+
+.card {
+  width: 315px;
+  background: #F9F9F9;
+  border: 1px solid #F2F2F2;
+  box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 20px 20px 30px 20px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.card-new-label {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 9px 16px;
+}
+
+.card-image-wrapper {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+}
+
+.card-title {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  color: #333333;
+}
+
+.card-sub-title {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #828282;
+}
+
+.card-price {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.card-packaging {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.card-package {
+  width: 68px;
+  height: 29px;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4F4F4F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-link {
+  padding: 12px 32px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #3FCF5E;
+  border: 1px solid #F2F2F2;
+  box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.card-add-cart {
+  width: 45px;
+  height: 45px;
+  background: #FFFFFF;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  background-image: url('../images/cart.png');
+  background-size: 27px 27px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-packaging input {
+  display: none;
+}
+
+input:checked + .card-package {
+  background-color: #FFFFFF;
+  border: 1px solid #3ECF5E;
+  border-radius: 5px;
+}

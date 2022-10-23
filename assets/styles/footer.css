@@ -1,0 +1,61 @@
+.footer {
+  background-color: #333333;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding-top: 102px;
+  padding-bottom: 132px;
+
+}
+
+.info p {
+  padding-right: 47px;
+  margin: 0px;
+}
+
+.info p:last-child {
+  padding-right: 0px;
+  margin: 0px;
+}
+
+
+.telephone {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding-top: 102px;
+  padding-bottom: 132px;
+  margin: 0px;
+  position: relative;
+}
+
+.telephone::before {
+  content: "";
+  background-image: url('../images/icon_phone_wite.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -11px;
+  top: 45%;
+  margin-top: -10%;
+}

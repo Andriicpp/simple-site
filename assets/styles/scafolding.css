@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  /* outline: 2px solid green; */
+}
+
+body {
+  font-family: 'Gilroy', 'San-serif';
+}
+
+.main {
+  background-color: #f9f9f9;
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
