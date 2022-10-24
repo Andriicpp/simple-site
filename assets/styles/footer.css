@@ -38,10 +38,9 @@
   padding-bottom: 130px;
 }
 
-.telephone {
+.telephone_footer {
   padding-top: 102px;
   padding-bottom: 132px;
-  margin: 0px;
   position: relative;
 }
 
@@ -53,7 +52,7 @@
   text-decoration: none;
 }
 
-.telephone::before {
+.telephone_footer::before {
   content: "";
   background-image: url('../images/icon_phone_wite.png');
   background-size: cover;
@@ -62,7 +61,7 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  left: -11px;
+  left: -30px;
   top: 45%;
   margin-top: -10%;
 }
