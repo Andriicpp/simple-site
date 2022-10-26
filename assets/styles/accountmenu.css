@@ -1,36 +1,56 @@
-.menu-account-main {
-  position: absolute;
-  top: 40px;
-  right: 0;
-  padding-top: 30px;
-  /* outline: 1px solid black; */
-  /* display: none; */
-}
-
-.menu-account {
+.account-info {
+  display: flex;
+  position: relative;
   list-style-type: none;
   padding: 0px;
 }
 
-.menu-account {
+.account-info li {
   display: inline-block;
-  width: 284px;
-  background: #FFFFFF;
-  box-shadow: 0px 15px 30px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  height: 173px;
+  position: relative;
+}
+
+.account-info a {
+  display: block;
+  text-align: center;
+  line-height: 40px;
+}
+
+.account-info ul {
+  position: absolute;
+  right: 0px;
+  top: 95%;
+  display: none;
+  padding: 0px;
+}
+
+.account-info li:hover > .poup-indent ul {
+  display: block;
 }
 
 .container-sign-in {
-  background: #3FCF5E;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 53px;
+  width: 244px;
+  height: 49px;
   margin: 25px 20px 15px 20px;
 }
+
+.container-register {
+  width: 244px;
+  height: 49px;
+  margin: 0px 20px 35px 20px;
+}
+
+.popup {
+  position: absolute;
+  list-style-type: none;
+  width: 284px;
+  height: 173px;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 30px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding-top: 30px;
+}
+
 
 .sign-in {
   font-weight: 600;
@@ -38,18 +58,9 @@
   line-height: 19px;
   text-align: center;
   color: #FFFFFF;
+  background-color: #3FCF5E;
   text-decoration: none;
-}
-
-.container-register {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 53px;
-  border: 1px solid #BDBDBD;
   border-radius: 10px;
-  margin: 0px 20px 35px 20px;
 }
 
 .register {
@@ -58,5 +69,20 @@
   line-height: 19px;
   text-align: center;
   color: #333333;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
   text-decoration: none;
+}
+
+.poup-indent {
+  position: absolute;
+  right: 0;
+  display: block;
+  height: 100px;
+  width: 280px;
+}
+
+.account-info li:hover > .poup-indent {
+  display: block;
+  top: 0;
 }
