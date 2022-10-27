@@ -1,0 +1,12 @@
+.payment {
+  margin-bottom: 25px;
+}
+
+.payment-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}

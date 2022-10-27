@@ -46,13 +46,6 @@
   position: relative;
 }
 
-/* .account-info {
-  display: flex;
-  position: relative;
-  list-style-type: none;
-  padding: 0px;
-} */
-
 .counter {
   position: absolute;
   top: -45%;

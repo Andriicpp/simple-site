@@ -13,7 +13,7 @@
   border-radius: 20px;
   padding: 20px 20px 30px 20px;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .card-new-label {
@@ -56,6 +56,8 @@
   font-size: 16px;
   line-height: 21px;
   color: #828282;
+  line-height: 130%;
+  font-weight: 400;
 }
 
 .card-price {

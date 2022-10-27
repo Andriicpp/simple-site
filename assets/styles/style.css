@@ -8,6 +8,10 @@
 @import url('./footer.css');
 @import url('./accountmenu.css');
 @import url('./catalogpopup.css');
+@import url('./sparrowtitle.css');
+@import url('./sparrow-descriptions.css');
+@import url('./saysproduct.css');
+
 @font-face {
   font-family: 'Gilroy';
   src: url('../fonts/Gilroy-Black.woff2') format('woff2'),

@@ -1,0 +1,36 @@
+.title {
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.title-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #333333;
+  margin: 0px 0px 40px 40px;
+}
+
+.title-text {
+  width: 610px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4F4F4F;
+  margin: 0px 0px 40px 40px;
+}
+
+.title-image {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.sparrow-image {
+  display: block;
+  width: 100%;
+  width: 558px;
+  height: 558px;
+}
+
